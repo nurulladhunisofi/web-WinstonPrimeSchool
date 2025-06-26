@@ -41,3 +41,11 @@
         });
     });
 // tombol up tutup
+
+// full image
+  function showImage(src) {
+    const modalImg = document.getElementById('modalImage');
+    modalImg.src = src;
+    const modal = new bootstrap.Modal(document.getElementById('imageModal'));
+    modal.show();
+  }

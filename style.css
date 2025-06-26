@@ -52,3 +52,7 @@
   box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.5) !important; /* bayangan kuning */
 }
 
+/* full image */
+.modal-img {
+  width: 100%;
+}
